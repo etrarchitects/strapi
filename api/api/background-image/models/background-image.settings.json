@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "background_images",
+  "info": {
+    "name": "BackgroundImage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "img": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}
