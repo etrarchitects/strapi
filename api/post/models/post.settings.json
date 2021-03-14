@@ -32,24 +32,23 @@
     "category": {
       "model": "category"
     },
-    "post_metadata": {
-      "collection": "post-metadata"
-    },
-    "images": {
-      "collection": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images"
-      ],
-      "plugin": "upload",
-      "required": false
-    },
     "subtitle": {
       "type": "text",
       "required": true
     },
     "sorting_date": {
       "type": "datetime",
+      "required": true
+    },
+    "metadata": {
+      "type": "component",
+      "repeatable": true,
+      "component": "post.post-metadata"
+    },
+    "slideshow": {
+      "type": "component",
+      "repeatable": true,
+      "component": "post.slider",
       "required": true
     }
   }

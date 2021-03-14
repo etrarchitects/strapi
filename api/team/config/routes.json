@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/post-metadata",
-      "handler": "post-metadata.find",
+      "path": "/teams",
+      "handler": "team.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/post-metadata/count",
-      "handler": "post-metadata.count",
+      "path": "/teams/count",
+      "handler": "team.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/post-metadata/:id",
-      "handler": "post-metadata.findOne",
+      "path": "/teams/:id",
+      "handler": "team.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/post-metadata",
-      "handler": "post-metadata.create",
+      "path": "/teams",
+      "handler": "team.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/post-metadata/:id",
-      "handler": "post-metadata.update",
+      "path": "/teams/:id",
+      "handler": "team.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/post-metadata/:id",
-      "handler": "post-metadata.delete",
+      "path": "/teams/:id",
+      "handler": "team.delete",
       "config": {
         "policies": []
       }

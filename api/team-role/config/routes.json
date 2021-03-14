@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/background-images",
-      "handler": "background-image.find",
+      "path": "/team-roles",
+      "handler": "team-role.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/background-images/count",
-      "handler": "background-image.count",
+      "path": "/team-roles/count",
+      "handler": "team-role.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/background-images/:id",
-      "handler": "background-image.findOne",
+      "path": "/team-roles/:id",
+      "handler": "team-role.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/background-images",
-      "handler": "background-image.create",
+      "path": "/team-roles",
+      "handler": "team-role.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/background-images/:id",
-      "handler": "background-image.update",
+      "path": "/team-roles/:id",
+      "handler": "team-role.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/background-images/:id",
-      "handler": "background-image.delete",
+      "path": "/team-roles/:id",
+      "handler": "team-role.delete",
       "config": {
         "policies": []
       }

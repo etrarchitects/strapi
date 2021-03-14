@@ -12,7 +12,8 @@
   },
   "attributes": {
     "type": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "order": {
       "type": "integer",

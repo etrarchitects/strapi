@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_post_post_metadata",
+  "info": {
+    "name": "Post Metadata",
+    "icon": "align-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

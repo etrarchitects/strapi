@@ -1,15 +1,11 @@
 {
-  "kind": "collectionType",
-  "collectionName": "background_images",
+  "collectionName": "components_post_sliders",
   "info": {
-    "name": "BackgroundImage",
+    "name": "Slider",
+    "icon": "arrows-alt-h",
     "description": ""
   },
-  "options": {
-    "increments": true,
-    "timestamps": true,
-    "draftAndPublish": true
-  },
+  "options": {},
   "attributes": {
     "img": {
       "model": "file",
@@ -19,6 +15,9 @@
       ],
       "plugin": "upload",
       "required": true
+    },
+    "caption": {
+      "type": "string"
     }
   }
 }

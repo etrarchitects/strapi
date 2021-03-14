@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "team_roles",
+  "info": {
+    "name": "MemberRole",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "role": {
+      "type": "string"
+    }
+  }
+}

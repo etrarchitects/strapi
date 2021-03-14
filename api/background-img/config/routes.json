@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/background-img",
+      "handler": "background-img.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/background-img",
+      "handler": "background-img.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/background-img",
+      "handler": "background-img.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
