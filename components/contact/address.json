@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_contact_addresses",
+  "info": {
+    "name": "address",
+    "icon": "building",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "street": {
+      "type": "string",
+      "required": true
+    },
+    "postal_code": {
+      "type": "integer",
+      "required": true
+    },
+    "city": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
