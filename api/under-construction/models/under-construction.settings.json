@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "under_constructions",
+  "info": {
+    "name": "UnderConstruction",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "content": {
+      "type": "richtext",
+      "required": true,
+      "default": "Sito in costruzione"
+    },
+    "enabled": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    }
+  }
+}
