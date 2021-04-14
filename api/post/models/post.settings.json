@@ -34,7 +34,7 @@
     },
     "subtitle": {
       "type": "text",
-      "required": true
+      "required": false
     },
     "sorting_date": {
       "type": "datetime",

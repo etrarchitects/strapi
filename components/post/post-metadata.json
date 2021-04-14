@@ -12,7 +12,7 @@
       "required": true
     },
     "content": {
-      "type": "string",
+      "type": "richtext",
       "required": true
     }
   }
